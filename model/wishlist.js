@@ -7,4 +7,4 @@ var wishlist=new schema({
   products:[{type:ObjectId,ref:'Product'}]
   //en products la referencia debe ser como se exxporto en product
 })
-module.export=mongoose.model('Wishlist',wishlist)
+module.exports=mongoose.model('Wishlist',wishlist)
